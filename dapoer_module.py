@@ -9,7 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import Tool, initialize_agent
 from langchain.memory import ConversationBufferMemory
 
-CSV_FILE_PATH = "https://raw.githubusercontent.com/audreeynr/dapoer-ai/main/data/Indonesian_Food_Recipes.csv"
+CSV_FILE_PATH = "CSV_FILE_PATH = "https://raw.githubusercontent.com/<username>/<repo>/main/Indonesian_Food_Recipes.csv""
 
 df = pd.read_csv(CSV_FILE_PATH).dropna(subset=['Title', 'Ingredients', 'Steps']).drop_duplicates()
 
